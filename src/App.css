@@ -1,20 +1,101 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contenedor{
+  position: relative;
+  width: 320px;
+  height: 380px ;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px ;
 }
+#formula{
+  width: 97%;
+  height: 45px;
+  
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
+  background-color: rgb(139, 184, 139);
+}
+#display{
+  
+  width: 97%;
+  height: 25px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
+  background-color: rgb(139, 184, 139);
+  
+}
+#botones-calculadora{
+  background-color: ivory;
+  width: 97%;
+  height: 290px;
+  border-radius: 10px;
+  margin: 0 5px 0 5px;
+}
+button{
+  width: 65px;
+  height: 52px;
+  background-color: rgb(116, 116, 116);
+  margin: 3px 5px 3px 7px;
+  border-radius: 10px;
+  border-color: aliceblue;
+  color: aliceblue;
+  cursor: pointer;
+  outline: 0 solid grey;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  
 }
+button:hover{
+  
+  outline: 0.05em solid grey;
+  z-index: 3;
+}
+.jumbo{
+  width: 140px;
+  color: black;
+}
+#equals{
+  position: absolute;
+  height: 110px;
+  bottom: 5px;
+  
+  
+
+}
+.number {
+  width: 97%;
+  height: 100%;
+  font-size: 20px;
+  margin: 0px 5px 0px 5px;
+  color: black  ;
+  text-align: right;
+  
+  
+  
+  
+}
+.formu{
+  width: auto;
+  min-height: 20px;
+  padding: 2px 5px 2px 0px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+/**.formu{
+  width: 97%;
+  height: 100%;
+  font-size: 1rem;
+  margin: 0px 5px 0px 5px;
+  padding: 5px 0 5px 0;
+  text-align: right;
+}*/
+
 
 .App-header {
-  background-color: #282c34;
+  background-color: #463939;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +105,4 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
